@@ -1,0 +1,137 @@
+{"version":1.2,"name":"Index","namespace":"Index","variables":[
+    
+    {"variable":"link1","desc":"Link 1 Box"},
+	
+	{"variable":"image1","desc":"Image 1 for Link Box"},
+	{"variable":"txt1","desc":"Name of Link 1"},
+	
+	{"variable":"link2","desc":"Link 2 Box"},
+	
+    {"variable":"image2","desc":"Image 2 for Link Box"}, 
+	{"variable":"txt2","desc":"Name 2 of Link 2"},	
+	
+    {"variable":"link3","desc":"Link 3 Box"},
+    {"variable":"image3","desc":"Image 3 for Link Box"},  
+	{"variable":"txt3","desc":"Name of Link 3"},
+	
+    {"variable":"link4","desc":"Link 4 Box"},
+    {"variable":"image4","desc":"Image 4 for Link Box"},
+	{"variable":"txt4","desc":"Name of Link 4"},
+
+	
+	{"variable":"link5","desc":"Link 5 Box"},
+    {"variable":"image5","desc":"Image 5 for Link Box"},
+	{"variable":"txt5","desc":"Name of Link 5"},
+	
+	
+	{"variable":"link6","desc":"Link 6 Box"},	
+	{"variable":"image6","desc":"Image 6 for Link Box"},
+	{"variable":"txt6","desc":"Name of Link 6"},
+	
+	{"variable":"link7","desc":"Link 7 Box"},	
+    {"variable":"image7","desc":"Image 7 for Link Box"}, 
+	{"variable":"txt7","desc":"Name of Link 7"},
+	
+	
+    {"variable":"link8","desc":"Link 8 Box"},
+    {"variable":"image8","desc":"Image 8 for Link Box"},  
+	{"variable":"txt8","desc":"Name of Link 8"},
+
+    {"variable":"link9","desc":"Link 9 Box"},
+    {"variable":"image9","desc":"Image 9 for Link Box"},
+	{"variable":"txt9","desc":"Name of Link 9"},
+	
+	{"variable":"link10","desc":"Link 10 Box"},
+    {"variable":"image10","desc":"Image 10 for Link Box"},	
+	{"variable":"txt10","desc":"Name of Link 10"},
+	
+	{"variable":"link11","desc":"Link 11 Box"},
+	
+	{"variable":"image11","desc":"Image 11 for Link Box"},
+	{"variable":"txt11","desc":"Name of Link 11"},
+	
+	{"variable":"link12","desc":"Link 12 Box"},
+	
+    {"variable":"image12","desc":"Image 12 for Link Box"}, 
+	{"variable":"txt12","desc":"Name 12 of Link 12"},	
+	
+    {"variable":"link13","desc":"Link 13 Box"},
+    {"variable":"image13","desc":"Image 13 for Link Box"},  
+	{"variable":"txt13","desc":"Name of Link 13"},
+	
+    {"variable":"link14","desc":"Link 14 Box"},
+    {"variable":"image14","desc":"Image 14 for Link Box"},
+	{"variable":"txt14","desc":"Name of Link 14"},
+
+	
+	{"variable":"link15","desc":"Link 15 Box"},
+    {"variable":"image15","desc":"Image 15 for Link Box"},
+	{"variable":"txt15","desc":"Name of Link 15"},
+	
+	
+	{"variable":"link16","desc":"Link 16 Box"},	
+	{"variable":"image16","desc":"Image 16 for Link Box"},
+	{"variable":"txt16","desc":"Name of Link 16"},
+	
+	{"variable":"link17","desc":"Link 17 Box"},	
+    {"variable":"image17","desc":"Image 17 for Link Box"}, 
+	{"variable":"txt17","desc":"Name of Link 17"},
+	
+	
+    {"variable":"link18","desc":"Link 18 Box"},
+    {"variable":"image18","desc":"Image 18 for Link Box"},  
+	{"variable":"txt18","desc":"Name of Link 18"},
+
+    {"variable":"link19","desc":"Link 19 Box"},
+    {"variable":"image19","desc":"Image 19 for Link Box"},
+	{"variable":"txt19","desc":"Name of Link 19"},
+	
+	{"variable":"link20","desc":"Link 20 Box"},
+	
+	{"variable":"image20","desc":"Image 20 for Link Box"},
+	{"variable":"txt20","desc":"Name of Link 20"},
+	
+	{"variable":"link21","desc":"Link 21 Box"},
+	
+    {"variable":"image21","desc":"Image 21 for Link Box"}, 
+	{"variable":"txt21","desc":"Name 21 of Link 21"},	
+	
+    {"variable":"link22","desc":"Link 22 Box"},
+    {"variable":"image22","desc":"Image 22 for Link Box"},  
+	{"variable":"txt22","desc":"Name of Link 22"},
+	
+    {"variable":"link23","desc":"Link 23 Box"},
+    {"variable":"image23","desc":"Image 23 for Link Box"},
+	{"variable":"txt23","desc":"Name of Link 23"},
+
+	
+	{"variable":"link24","desc":"Link 24 Box"},
+    {"variable":"image24","desc":"Image 24 for Link Box"},
+	{"variable":"txt24","desc":"Name of Link 24"},
+	
+	
+	{"variable":"link25","desc":"Link 25 Box"},	
+	{"variable":"image25","desc":"Image 25 for Link Box"},
+	{"variable":"txt25","desc":"Name of Link 25"},
+	
+	{"variable":"link26","desc":"Link 26 Box"},	
+    {"variable":"image26","desc":"Image 26 for Link Box"}, 
+	{"variable":"txt26","desc":"Name of Link 26"},
+	
+	
+    {"variable":"link27","desc":"Link 27 Box"},
+    {"variable":"image27","desc":"Image 27 for Link Box"},  
+	{"variable":"txt27","desc":"Name of Link 27"},
+
+    {"variable":"link28","desc":"Link 28 Box"},
+    {"variable":"image28","desc":"Image 28 for Link Box"},
+	{"variable":"txt28","desc":"Name of Link 28"},
+
+	
+	
+	
+	
+	
+	
+	
+    {"variable":"placeholder","desc":"I'm the last place holder don't touch me"}]}
