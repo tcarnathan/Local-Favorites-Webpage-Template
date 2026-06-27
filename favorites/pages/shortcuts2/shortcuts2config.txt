@@ -1,0 +1,190 @@
+{
+
+
+"version":1.4,"name":"shortcuts2","namespace":"shortcuts2","dropdown":"image","variables": {
+
+"link1":[
+    
+    {"variable":"link1","desc":"Link 1 Box"},
+	
+	{"variable":"image1","desc":"image"},
+	{"variable":"txt1","desc":"Name of Link 1"}
+	],
+	
+	"link2":[
+	
+	{"variable":"link2","desc":"Link 2 Box"},
+	
+    {"variable":"image2","desc":"image"}, 
+	{"variable":"txt2","desc":"Name 2 of Link 2"}],
+	
+	"link3":[	
+    {"variable":"link3","desc":"Link 3 Box"},
+    {"variable":"image3","desc":"image"},  
+	{"variable":"txt3","desc":"Name of Link 3"}
+	],"link4":[		
+    {"variable":"link4","desc":"Link 4 Box"},
+    {"variable":"image4","desc":"image"},
+	{"variable":"txt4","desc":"Name of Link 4"}
+	],"link5":[	
+
+	
+	{"variable":"link5","desc":"Link 5 Box"},
+    {"variable":"image5","desc":"image"},
+	{"variable":"txt5","desc":"Name of Link 5"}
+	],"link6":[	
+	
+	
+	{"variable":"link6","desc":"Link 6 Box"},	
+	{"variable":"image6","desc":"image"},
+	{"variable":"txt6","desc":"Name of Link 6"}
+	],"link7":[		
+	{"variable":"link7","desc":"Link 7 Box"},	
+    {"variable":"image7","desc":"image"}, 
+	{"variable":"txt7","desc":"Name of Link 7"}
+	],"link8":[		
+	
+    {"variable":"link8","desc":"Link 8 Box"},
+    {"variable":"image8","desc":"image"},  
+	{"variable":"txt8","desc":"Name of Link 8"}
+	],"link9":[
+    {"variable":"link9","desc":"Link 9 Box"},
+    {"variable":"image9","desc":"image"},
+	{"variable":"txt9","desc":"Name of Link 9"}
+	
+	],"link10":[
+	{"variable":"link10","desc":"Link 10 Box"},
+    {"variable":"image10","desc":"image"},	
+	{"variable":"txt10","desc":"Name of Link 10"}
+	
+	
+	
+	],"link11":[
+	{"variable":"link11","desc":"Link 11 Box"},
+	{"variable":"image11","desc":"image"},
+	{"variable":"txt11","desc":"Name of Link 11"}
+	
+	],"link12":[
+	{"variable":"link12","desc":"Link 12 Box"},
+	{"variable":"image12","desc":"image"}, 
+	{"variable":"txt12","desc":"Name 12 of Link 12"}
+	
+	],"link13":[	
+	
+    {"variable":"link13","desc":"Link 13 Box"},
+    {"variable":"image13","desc":"image"},  
+	{"variable":"txt13","desc":"Name of Link 13"}
+	
+	],"link14":[
+	
+    {"variable":"link14","desc":"Link 14 Box"},
+    {"variable":"image14","desc":"image"},
+	{"variable":"txt14","desc":"Name of Link 14"}
+	
+	],"link15":[
+
+	
+	{"variable":"link15","desc":"Link 15 Box"},
+    {"variable":"image15","desc":"image"},
+	{"variable":"txt15","desc":"Name of Link 15"}
+	
+	],"link16":[
+	
+	
+	{"variable":"link16","desc":"Link 16 Box"},	
+	{"variable":"image16","desc":"image"},
+	{"variable":"txt16","desc":"Name of Link 16"}
+	
+	],"link17":[
+	
+	{"variable":"link17","desc":"Link 17 Box"},	
+    {"variable":"image17","desc":"image"}, 
+	{"variable":"txt17","desc":"Name of Link 17"}
+	
+	],"link18":[
+	
+	
+    {"variable":"link18","desc":"Link 18 Box"},
+    {"variable":"image18","desc":"image"},  
+	{"variable":"txt18","desc":"Name of Link 18"}
+	
+	],"link19":[
+
+    {"variable":"link19","desc":"Link 19 Box"},
+    {"variable":"image19","desc":"image"},
+	{"variable":"txt19","desc":"Name of Link 19"}
+	
+	],"link20":[
+	
+	{"variable":"link20","desc":"Link 20 Box"},
+	{"variable":"image20","desc":"image"},
+	{"variable":"txt20","desc":"Name of Link 20"}
+	
+	],"link21":[
+	
+	{"variable":"link21","desc":"Link 21 Box"},
+	
+    {"variable":"image21","desc":"image"}, 
+	{"variable":"txt21","desc":"Name 21 of Link 21"}
+	
+	],"link22":[	
+	
+    {"variable":"link22","desc":"Link 22 Box"},
+    {"variable":"image22","desc":"image"},  
+	{"variable":"txt22","desc":"Name of Link 22"}
+	
+	],"link23":[
+	
+    {"variable":"link23","desc":"Link 23 Box"},
+    {"variable":"image23","desc":"image"},
+	{"variable":"txt23","desc":"Name of Link 23"}
+	
+	],"link24":[
+
+	
+	{"variable":"link24","desc":"Link 24 Box"},
+    {"variable":"image24","desc":"image"},
+	{"variable":"txt24","desc":"Name of Link 24"}
+	
+	],"link25":[
+	
+	
+	{"variable":"link25","desc":"Link 25 Box"},	
+	{"variable":"image25","desc":"image"},
+	{"variable":"txt25","desc":"Name of Link 25"}
+	
+	],"link26":[
+	
+	{"variable":"link26","desc":"Link 26 Box"},	
+    {"variable":"image26","desc":"image"}, 
+	{"variable":"txt26","desc":"Name of Link 26"}
+	
+	],"link27":[
+	
+	
+    {"variable":"link27","desc":"Link 27 Box"},
+    {"variable":"image27","desc":"image"},  
+	{"variable":"txt27","desc":"Name of Link 27"}
+	
+	],"link28":[
+
+    {"variable":"link28","desc":"Link 28 Box"},
+    {"variable":"image28","desc":"image"},
+	{"variable":"txt28","desc":"Name of Link 28"}
+
+	
+	
+	]
+
+	
+	
+	
+	
+	
+	
+	 }
+	 
+	 
+	 
+	 
+	 }
