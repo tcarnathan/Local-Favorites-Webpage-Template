@@ -44,5 +44,28 @@ shortcutsettings.php
 shortcutsettings2.php
 and any ones you added  set them to 664 as well just like with the indexsettings.php
 
+Here's an example of local links
+
+<img width="1918" height="1162" alt="index" src="https://github.com/user-attachments/assets/d29cea81-95eb-4161-ac7e-8b68b77c4919" />
+
+here's an example of outside favorites. 
+
+<img width="2029" height="935" alt="shortcuts" src="https://github.com/user-attachments/assets/76d9fa82-ddb8-4fb0-9fd8-969b0de2d9e8" />
+
+When you click on edit it will take you to the edit page (this is shared for all the pages when you click the edit link it will tell it what page you want to edit) 
+
+<img width="1954" height="1020" alt="editor1" src="https://github.com/user-attachments/assets/10fbce8f-f7bb-4bf1-9d3a-fbdd2a3e722c" />
+
+This will show you underneath each button what link is set to that button as well as allowing you to see what image you have it set to. Clicking on it while on the edit page will allow you to change the settings for that shortcut button. 
+
+<img width="2132" height="963" alt="submitpage" src="https://github.com/user-attachments/assets/841e8a85-f6d2-4b88-acbf-f40709ef43b4" />
+
+On this page, you can upload images to use for the shortcut pages. This uploads to the image directory. 
+
+Images that are in the images directory will populate in the drop down menu (note if you just uploaded an image you will have to refresh the page so the menu will update) 
+
+<img width="1335" height="1103" alt="drop down" src="https://github.com/user-attachments/assets/6a5da288-f63f-45c1-a97c-b60ca6125ac9" />
+
+
 
 
