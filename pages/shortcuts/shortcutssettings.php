@@ -1,7 +1,7 @@
 <?php
-// link2 settings file
-// Version: 1.3
-// Created: 2026-06-27 15:12:41
+// link28 settings file
+// Version: 1.4
+// Created: 2026-06-27 16:49:11
 
 $link1 = 'https://facebook.com';
 $image1 = 'facebook.jpg';
@@ -9,15 +9,15 @@ $txt1 = 'Facebook';
 $link2 = 'https://www.blitzortung.org/en/live_lightning_maps.php?map=30';
 $image2 = 'blitzortung.png';
 $txt2 = 'bliztorung';
-$link3 = '';
-$image3 = '../../f.jpg';
-$txt3 = '';
-$link4 = '';
-$image4 = '../../f.jpg';
-$txt4 = '';
-$link5 = '';
-$image5 = '../../f.jpg';
-$txt5 = '';
+$link3 = 'https://weather.gov';
+$image3 = 'NWS.png';
+$txt3 = 'weather gov';
+$link4 = 'ui.com';
+$image4 = 'ubiquity.jpg';
+$txt4 = 'ui2';
+$link5 = 'LCWO.net';
+$image5 = 'lcwo.png';
+$txt5 = 'LCWO';
 $link6 = '';
 $image6 = '../../f.jpg';
 $txt6 = '';
@@ -33,9 +33,9 @@ $txt9 = '';
 $link10 = '';
 $image10 = '../../f.jpg';
 $txt10 = '';
-$link11 = '';
-$image11 = '../../f.jpg';
-$txt11 = '';
+$link11 = 'google.com';
+$image11 = 'Nvr2.jpg';
+$txt11 = 'elgoog';
 $link12 = '';
 $image12 = '../../f.jpg';
 $txt12 = '';
@@ -58,7 +58,7 @@ $link18 = '';
 $image18 = '../../f.jpg';
 $txt18 = '';
 $link19 = 'https://career4.successfactors.com/career?company=Hersheys&site';
-$image19 = '../../Hersheys.png';
+$image19 = 'Hersheys.png';
 $txt19 = 'Hershey jobs';
 $link20 = '';
 $image20 = '../../f.jpg';
@@ -84,8 +84,8 @@ $txt26 = '';
 $link27 = '../../index.php';
 $image27 = '../../Mainpage.jpg';
 $txt27 = 'Mainpage';
-$link28 = 'http://192.168.254.3/local/pages/shortcuts/setup.php';
-$image28 = '../../Settings.png';
+$link28 = '../../settings/editor.php?pagename=shortcuts';
+$image28 = 'Settings.png';
 $txt28 = 'Settings';
 
 

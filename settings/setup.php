@@ -6,22 +6,42 @@
 
 	
 <?php
+	$pagename = $_GET['pagename'];
 	$blockNameSpace = $_GET['id'];
 	$linkpointer = $_GET['id'];
-	$dir = '../images';
-	$files1 = scandir($dir);	
-#	print_r($files1);
-	$pointer = 'phpmyadmin.png';
+	$imgdir = '../images';
+	$files1 = scandir($imgdir);
 
-	if(file_exists("../indexconfig.txt")){
-#		echo("it exist");
-		$configfile = file_get_contents('../indexconfig.txt');
+	
+
+		
+	
+	if($pagename=="index"){
+
+		$configdir = '../'.$pagename.'config.txt';
+		$settingsdir = '../'.$pagename.'settings.php';
+
+
+		}
+	else{
+
+		$configdir = '../pages/'.$pagename.'/'.$pagename.'config.txt';
+		$settingsdir = '../pages/'.$pagename.'/'.$pagename.'settings.php';
+
+		}	
+	
+	
+	
+	if(file_exists($configdir)){
+
+#		$configfile = file_get_contents('../indexconfig.txt');
+		$configfile = file_get_contents($configdir);
 		$blockInfo = json_decode($configfile,true);
 #		echo($configfile);
 #		echo($blockInfo);
 	}
-	if(file_exists('settings.php')){
-		include('settings.php');
+	if(file_exists($settingsdir)){
+		include($settingsdir);
 	}
 
 
@@ -47,13 +67,6 @@
 #	echo 'test2';
 ?>
 
-<select name="Image">
-    <?php foreach ($files1 as $files2): ?>
-        <option value="<?php echo $files2; ?>" <?php echo ($files2 == $pointer) ? 'selected' : '' ?>>
-            <?php echo $files2; ?>
-        </option>
-    <?php endforeach; ?>
-</select>
 
 
 
@@ -182,6 +195,8 @@
 					?>
 					
 					<input type="hidden" name="id" value='<?php echo $blockNameSpace?>'> 
+					<input type="hidden" name="pagename" value='<?php echo $pagename?>'> 
+					<input type="hidden" name="settingsdir" value='<?php echo $settingsdir?>'> 
 					<input type="hidden" name="parameters" value='<?php echo implode(',',$variableList)?>'>
 					<input type="hidden" name="version" value='<?php echo $blockInfo['version']?>'>
 					<br><br>
@@ -191,20 +206,27 @@
 					<br><br>
 				</form>
 			</div>
+			
 		</div>
 
-		<?php 
-			if($enableKeyboard){
-		?>
-				<script src="<?php echo $pageURL.$path?>scripts/mousetrap.min.js"></script>
-				<script>
-					Mousetrap.bind(['alt+s'], function(e) {
-						$("#blockSettingsForm").submit();
-					});
-				</script>
-		<?php
-			}
-		?>
+		
+		<center>
+		<br>
+			<table cellpadding="9" border="0" cellspacing="0" style="border:solid 1px #000;background-color:#3cc">
+				<tr><td valign="center">
+				<H1>Image Uploader</h1>
+				<form action="upload.php" method="post" enctype="multipart/form-data">
+				Select image to upload:
+				<input type="file" name="fileToUpload" id="fileToUpload">
+				<input type="submit" value="Upload Image" name="submit">
+				</form>
+	
+			</td></tr>
+	
+		</table>
+		</center>
+
+
 	</body>
 </html>
 

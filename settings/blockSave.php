@@ -4,6 +4,8 @@
 
 
 	$blockNameSpace = $_POST['id'];
+	$pagename = $_POST['pagename'];
+	$settingsdir = $_POST['settingsdir'];
 	$parameters = explode(',',$_POST['parameters']);
 
 	$string = "<?php".PHP_EOL;
@@ -27,13 +29,14 @@
 	$string .= PHP_EOL;
 	$string .= PHP_EOL;
 
-	file_put_contents('settings.php',$string);
+	file_put_contents($settingsdir,$string);
 
-	if(file_exists('settings.php')){
-		echo "<script>alert('Settings saved.');document.location = 'setup.php';</script>";
+	if(file_exists($settingsdir)){
+		echo "<script>alert('Settings saved.');document.location = 'editor.php?pagename=$pagename';</script>";
+
 	}
 	else{
-		echo "<script>alert('Settings could not be saved! Please check that the block folder has correct permissions to write the settings file.');document.location = 'blockSetup.php';</script>";
+		echo "<script>alert('Settings could not be saved! Please check that the folder has correct permissions to write the settings file.');'editor.php?pagename=$pagename';</script>";
 	}
 	
 ?>
