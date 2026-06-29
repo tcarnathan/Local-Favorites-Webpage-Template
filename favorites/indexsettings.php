@@ -1,7 +1,7 @@
 <?php
-// link21 settings file
-// Version: 1.4
-// Created: 2026-06-27 21:02:47
+// link24 settings file
+// Version: 1.5
+// Created: 2026-06-29 01:00:59
 
 $link1 = '';
 $image1 = 'f.jpg';
@@ -63,9 +63,9 @@ $txt19 = '';
 $link20 = '';
 $image20 = 'f.jpg';
 $txt20 = '';
-$link21 = '';
-$image21 = 'f.jpg';
-$txt21 = '';
+$link21 = 'pages/shortcuts/shortcuts.php';
+$image21 = 'Shortcuts.jpg';
+$txt21 = 'shortcuts';
 $link22 = '';
 $image22 = 'f.jpg';
 $txt22 = '';
@@ -84,8 +84,12 @@ $txt26 = '';
 $link27 = '';
 $image27 = 'f.jpg';
 $txt27 = '';
-$link28 = 'pages/shortcuts/shortcuts.php';
-$image28 = 'Shortcuts.jpg';
-$txt28 = 'Shortcuts';
+$link28 = 'pages/shortcuts2/shortcuts2.php';
+$image28 = 'shortcuts2.png';
+$txt28 = 'Shortcuts 2';
+$color29a = 'DarkBlue';
+$color29b = 'DarkRed';
+$width29 = '250';
+$height29 = '150';
 
 

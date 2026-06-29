@@ -46,7 +46,7 @@
 
 
 	// iterate variables
-	for ($num = 1; $num <= 28; $num++) {
+	for ($num = 1; $num <= 29; $num++) {
 		foreach($blockInfo['variables']['link'.$num] as $variable){
 			$variableList[] = $variable['variable'];
 			if(!isset(${$variable['variable']})){
@@ -61,8 +61,6 @@
 
 
 	}}	
-	
-
 
 #	echo 'test2';
 ?>
@@ -108,20 +106,30 @@
 		<div id="main2">
 
 			<div class="textDiv">
+			<?php 
+				if($linkpointer=="link29"){ 
+					echo "<h1>Style settings for on the ".$blockInfo['name']." page</h1></br>";
+					
+					
+				}
+				else{ 
+					echo "<h1>Settings for Link Tile #".$blockInfo['variables'][$linkpointer]['0']["number"]." on the ".$blockInfo['name']." page</h1></br>";
+					
+					}
 
-				<h1>Settings for <?php echo ($linkpointer)?> on the  Settings <?php echo ($blockInfo['name'])?> page</h1></br>
 
-				<form method="post" action="filesave.php" id='blockSettingsForm'>
+			?>
+
+				
+				<form method="post" action="blockSave.php" id='blockSettingsForm'>
 					<div style="text-align:left;font-size:1.2em;font-weight:bold;font-variant:small-caps">
 						Version: <?php echo number_format($blockInfo['version'],1,".","")?>
 					</div>
 					<?php
-						for ($ehh = 1; $ehh <= 28; $ehh++) {
+						for ($ehh = 1; $ehh <= 29; $ehh++) {
 
 							foreach($blockInfo['variables']['link'.$ehh] as $variable){
-#								echo "<br>";
 
-#								echo $variable['desc']."<br>";
 								$varLength = strlen(${$variable['variable']});
 
 								if($varLength<45){
@@ -149,8 +157,15 @@
 }
 						foreach($blockInfo['variables'][$linkpointer] as $variable){
 							echo "<br>";
-
-							echo $variable['desc']."<br>";
+							if($variable['type'] == 'color'){
+								echo $variable['desc']." ".$blockInfo['name']."<br>";
+								
+								
+							}
+							else{
+								echo $variable['desc']."<br>";
+							}
+								
 							$varLength = strlen(${$variable['variable']});
 
 							if($varLength<45){
@@ -166,12 +181,9 @@
 							else if(${$variable['variable']}=="false"){
 								echo "<select name='".$variable['variable']."' class='button inputSet'><option value='true'>True</option><option value='false' selected>False</option></select>";
 							}
-							else if($variable['desc']=="image"){ 
+							else if($variable['type']=="image"){ 
 
-							
-							
 
-#							echo "<select name=".$variable['variable']."'";
 							echo "<select name='".$variable['variable']."' class='button inputSet'>"; ?>
 									<?php foreach ($files1 as $files2): ?>
 										<option value="<?php echo $files2; ?>" <?php echo ($files2 == ${$variable['variable']}) ? 'selected' : '' ?>>
@@ -222,8 +234,17 @@
 				</form>
 	
 			</td></tr>
+			
+
+			
+			
 	
 		</table>
+		
+		</br></br></br></br></br>
+		<div id="links" class="sterrpointer">
+	<!-- Return -->
+	<a href="editor.php?pagename=<?php echo $pagename; ?>"><img src="../images/return.png" width="250" height="150" border="0" alt="return" /></a> 
 		</center>
 
 

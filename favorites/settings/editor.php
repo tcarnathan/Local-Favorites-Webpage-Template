@@ -25,6 +25,33 @@
 ?>
 
 <style>
+		#designerbox{
+			font-variant:small-caps;
+
+			font-weight: bold;
+
+			max-width: 250px;
+
+			width: 100%;
+
+			margin-right: auto;
+
+			margin-left: auto;
+
+			padding-left: 5px;
+
+			padding-right: 5px;
+
+			margin-bottom:10px;
+
+			border: 1px solid white;
+
+			background-color: #0015BF;
+			
+
+			
+		}
+		
 		#links{
 
 			font-variant:small-caps;
@@ -59,7 +86,8 @@
 			
 			font-size: 20px;
 			color: white;
-
+			text-align: center;
+			text-transform: capitalize;
 			font-weight: bold;
 
 			word-wrap: break-word;
@@ -112,8 +140,7 @@
 
 
 <div style="width: 2300">
-
-<html><body bgcolor=#D13819>
+<html><body bgcolor=<?php echo $color29b?>>
 
 
 
@@ -463,19 +490,50 @@
 		
 	
   </tr>
-  
-</table>
-
-
-
-<br>  
-
-
-
-<div id="links" class="sterrpointer">
+  <tr>
+  <td>
+  <div id="links" class="sterrpointer">
 	<!-- Return -->
 	<a href="<?php echo $returndir ?>"><img src="<?php echo $imagedir.'return.png'?>" width="250" height="150" border="0" alt="return" /></a> 
 	
+
+  </td>
+    <td>
+  </td>
+    <td>
+  </td>
+    <td>
+	<div id="designerbox" class="sterrpointer">
+	<!-- Page Design Settings -->
+	<a href="<?php echo 'setup.php?id=link29&pagename='.$pagename ?>"><img src="../images/design.png" width="250" height="150" border="0" alt="design" /></a> 
+
+	<br>
+			<span id="spann" style='font-variant:small-caps'><?php echo 'Page Color: <br>'.$color29a ?></span><br>
+			<span id="spann" style='font-variant:small-caps'><?php echo 'This Edit Page Color:<br> '.$color29b ?></span><br>
+			<span id="spann" style='font-variant:small-caps'><?php echo 'Tile Width: <br>'.$width29 ?></span><br>
+			<span id="spann" style='font-variant:small-caps'><?php echo 'Tile Height: <br>'.$height29 ?></span>
+	
+	
+	
+  </td>
+    <td>
+  </td>
+    <td>
+  </td>
+    <td>
+  </td>
+    </tr>
+	
+	
+	  <tr>
+  <td>
+  </td>
+    <td>
+  </td>
+    <td>
+  </td>
+    <td>
+
 
 
 
@@ -483,6 +541,26 @@
 
 			
 		</div>
+	
+	
+  </td>
+    <td>
+  </td>
+    <td>
+  </td>
+    <td>
+  </td>
+    </tr>
+</table>
+
+
+
+<br>  
+
+<br>
+
+<br><br>
+
 
 
 
