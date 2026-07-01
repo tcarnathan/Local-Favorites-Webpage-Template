@@ -231,6 +231,10 @@
 				Select image to upload:
 				<input type="file" name="fileToUpload" id="fileToUpload">
 				<input type="submit" value="Upload Image" name="submit">
+				<input type="hidden" name="id" value='<?php echo $blockNameSpace?>'> 
+				<input type="hidden" name="pagename" value='<?php echo $pagename?>'> 
+				
+				
 				</form>
 	
 			</td></tr>
