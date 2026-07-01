@@ -1,7 +1,7 @@
 {
 
 
-"version":1.5,"name":"Shortcuts2","namespace":"Shortcuts2","dropdown":"image","variables": {
+"version":1.6,"name":"Index","namespace":"Index","dropdown":"image","variables": {
 
 "link1":[
     
@@ -181,8 +181,8 @@
 	{"variable":"color29a","number":"29","type":"color","desc":"Background Color For"},
 	{"variable":"color29b","number":"29","type":"editorcolor","desc":"Background Color For The Editor Page"},
 	{"variable":"width29","number":"29","type":"width","desc":"Tile Width For Links"},
-	{"variable":"height29","number":"29","type":"height","desc":"Tile Height For Links"}
-
+	{"variable":"height29","number":"29","type":"height","desc":"Tile Height For Links"},
+	{"variable":"title29","number":"29","type":"title","desc":"Title Override for the page (if blank it will default to the page name set in the page php file)"}
 	
 	]
 
