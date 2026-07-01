@@ -148,8 +148,15 @@
 
 
 <br>
+<?php	if($title29 == ""){
+			echo '<h1 id=topp> Editor For '.$pagename.'</h1>'; 
+			}
+		else{
+			echo '<h1 id=topp> Editor For '.$title29.'</h1>'; 
+		}
+		?>
 
-<h1 id=topp> <?php echo 'Editor for '.$pagename ?> </h1>
+
 <br>
 
 <br> <!-- Row 1 -->
@@ -511,7 +518,8 @@
 			<span id="spann" style='font-variant:small-caps'><?php echo 'Page Color: <br>'.$color29a ?></span><br>
 			<span id="spann" style='font-variant:small-caps'><?php echo 'This Edit Page Color:<br> '.$color29b ?></span><br>
 			<span id="spann" style='font-variant:small-caps'><?php echo 'Tile Width: <br>'.$width29 ?></span><br>
-			<span id="spann" style='font-variant:small-caps'><?php echo 'Tile Height: <br>'.$height29 ?></span>
+			<span id="spann" style='font-variant:small-caps'><?php echo 'Tile Height: <br>'.$height29 ?></span><br>
+			<span id="spann" style='font-variant:small-caps'><?php echo 'Page Title Override: <br>'.$title29 ?></span><br>
 	
 	
 	

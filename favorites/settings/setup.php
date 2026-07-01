@@ -107,13 +107,21 @@
 
 			<div class="textDiv">
 			<?php 
+				if($title29 == ''){
+					$titlebar = $blockInfo['name'];
+				}
+				else{
+					$titlebar = $title29;
+					
+				}
+
 				if($linkpointer=="link29"){ 
-					echo "<h1>Style settings for on the ".$blockInfo['name']." page</h1></br>";
+					echo "<h1>Style settings for on the ".$titlebar." page</h1></br>";
 					
 					
 				}
 				else{ 
-					echo "<h1>Settings for Link Tile #".$blockInfo['variables'][$linkpointer]['0']["number"]." on the ".$blockInfo['name']." page</h1></br>";
+					echo "<h1>Settings for Link Tile #".$blockInfo['variables'][$linkpointer]['0']["number"]." on the ".$titlebar." page</h1></br>";
 					
 					}
 
