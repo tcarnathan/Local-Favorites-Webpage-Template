@@ -59,12 +59,15 @@ echo '<div style="width: '.$pagewidth.'">';
 <br>
 
 <br>
+<?php	if($title29 == ""){
+			echo '<h1 id=topp>'.$pagename.'</h1>'; 
+			}
+		else{
+			echo '<h1 id=topp>'.$title29.'</h1>'; 
+		}
+		?>
 
-<h1 id=topp> <?php echo $pagename ?> </h1>
 <br>
-
-<br>
-
 
 <br>
 
