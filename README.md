@@ -2,6 +2,8 @@
 
 I'm still working on the instructions so bare with me while I get it updated
 
+I'm also constantly updating and improving the features. When updating the files backup all your settings.php files (e.g. indexsettings.php shortcutssettings.php and shortcuts2settings.php (not to be confused with setup.php that one can be upgraded) The settings.php files hold your saved settings and links etc... once you upgrade all the files just reload your saved backuped settings.php files and it will reload all your shortcuts and settings.  
+
 I'm not a genius with programming so use this at your own risk. 
 This was designed to work on a local web server away from direct access from the web 
 There is no password protection on the edit pages so if it was online I can only imagine what sites people would like to the shortcuts. 
