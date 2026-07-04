@@ -116,7 +116,7 @@
 				}
 
 				if($linkpointer=="link29"){ 
-					echo "<h1>Style settings for on the ".$titlebar." page</h1></br>";
+					echo "<h1>Style Settings for on the ".$titlebar." page</h1></br>";
 					
 					
 				}
@@ -183,10 +183,12 @@
 							if($varLength>120){
 								$varLength = 120;
 							}
-							if(${$variable['variable']}=="true"){
+#							if(${$variable['variable']}=="true"){
+							if($variable['type']=="bool" && ${$variable['variable']}=="true"){ 								
 								echo "<select name='".$variable['variable']."' class='button inputSet'><option value='true' selected>True</option><option value='false'>False</option></select>";
 							}
-							else if(${$variable['variable']}=="false"){
+#							else if(${$variable['variable']}=="false"){
+							else if($variable['type']=="bool" && ${$variable['variable']}=="false"){ 
 								echo "<select name='".$variable['variable']."' class='button inputSet'><option value='true'>True</option><option value='false' selected>False</option></select>";
 							}
 							else if($variable['type']=="image"){ 
@@ -198,11 +200,29 @@
 											<?php echo $files2; ?>
 										</option>
 									<?php endforeach; ?>
-								</select>
+								</select> <?php } 
 								
 								
+							else if($variable['type']=="imageico"){ 
+
+
+							echo "<select name='".$variable['variable']."' class='button inputSet'>"; ?>
+									<?php foreach ($files1 as $files2): ?>
+										<option value="<?php echo $files2; ?>" <?php echo ($files2 == ${$variable['variable']}) ? 'selected' : '' ?>>
+											<?php echo $files2; ?>
+										</option>
+									<?php endforeach; ?>
+								</select>	
+								
+		
 								
 							<?php }
+							else if($variable['type']=="html"){ 
+#								echo "<textarea id='".$variable['variable']."' name='".$variable['variable']."' value='".${$variable['variable']}."' class='button2 inputSet' size=".$varLength."</textarea>";
+								echo "<textarea id='".$variable['variable']."' name='".$variable['variable']."' value='".${$variable['variable']}."' class='button2 inputSet' cols='50' rows='12'>.${$variable['variable']}</textarea>";
+#								echo "<input name='".$variable['variable']."' value='".${$variable['variable']}."' class='button2 inputSet' size=".$varLength.">";
+							}
+
 							
 							else{
 #								echo $variable['desc']."<br>";

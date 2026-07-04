@@ -1,7 +1,7 @@
 <?php
 // link29 settings file
 // Version: 1.5
-// Created: 2026-06-29 01:00:13
+// Created: 2026-07-04 00:55:42
 
 $link1 = '';
 $image1 = 'f.jpg';
@@ -91,5 +91,10 @@ $color29a = 'DarkBlue';
 $color29b = 'DarkRed';
 $width29 = '250';
 $height29 = '150';
+$title29 = '';
+$HeaderEnabled29 = true;
+$Header29 = '.';
+$FooterEnabled29 = true;
+$Footer29 = '.';
 
 

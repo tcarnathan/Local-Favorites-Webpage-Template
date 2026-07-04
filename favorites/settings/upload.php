@@ -31,10 +31,10 @@ if ($_FILES["fileToUpload"]["size"] > 500000) {
 }
 
 // Allow certain file formats
-if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
+if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "ico" && $imageFileType != "jpeg"
 && $imageFileType != "gif" ) {
 
-	echo "<script>alert('Sorry, only JPG, JPEG, PNG & GIF files are allowed..');document.location = 'setup.php?id=".$id."&pagename=".$pagename."';</script>";
+	echo "<script>alert('Sorry, only JPG, JPEG, PNG, ICO & GIF files are allowed..');document.location = 'setup.php?id=".$id."&pagename=".$pagename."';</script>";
   $uploadOk = 0;
 }
 

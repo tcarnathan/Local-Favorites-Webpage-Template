@@ -520,6 +520,9 @@
 			<span id="spann" style='font-variant:small-caps'><?php echo 'Tile Width: <br>'.$width29 ?></span><br>
 			<span id="spann" style='font-variant:small-caps'><?php echo 'Tile Height: <br>'.$height29 ?></span><br>
 			<span id="spann" style='font-variant:small-caps'><?php echo 'Page Title Override: <br>'.$title29 ?></span><br>
+			<span id="spann" style='font-variant:small-caps'><?php echo 'HTML Header Enabled: <br>'.$HeaderEnabled29 ?></span><br>
+			<span id="spann" style='font-variant:small-caps'><?php echo 'HTML Footer Enabled: <br>'.$FooterEnabled29 ?></span><br>
+			<span id="spann" style='font-variant:small-caps'><?php echo 'Favicon Image: <br>'.$favicon29 ?></span><br>
 	
 	
 	

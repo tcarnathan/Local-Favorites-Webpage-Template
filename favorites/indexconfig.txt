@@ -1,7 +1,7 @@
 {
 
 
-"version":1.6,"name":"Index","namespace":"Index","dropdown":"image","variables": {
+"version":1.7,"name":"Index","namespace":"Index","dropdown":"image","variables": {
 
 "link1":[
     
@@ -182,8 +182,12 @@
 	{"variable":"color29b","number":"29","type":"editorcolor","desc":"Background Color For The Editor Page"},
 	{"variable":"width29","number":"29","type":"width","desc":"Tile Width For Links"},
 	{"variable":"height29","number":"29","type":"height","desc":"Tile Height For Links"},
-	{"variable":"title29","number":"29","type":"title","desc":"Title Override for the page (if blank it will default to the page name set in the page php file)"}
-	
+	{"variable":"title29","number":"29","type":"title","desc":"Title Override for the page (if blank it will default to the page name set in the page php file)"},
+	{"variable":"HeaderEnabled29","number":"29","type":"bool","desc":"Enable Header HTML code"},	
+	{"variable":"Header29","number":"29","type":"html","desc":"Header HTML code"},
+	{"variable":"FooterEnabled29","number":"29","type":"bool","desc":"Enable Footer HTML code"},	
+	{"variable":"Footer29","number":"29","type":"html","desc":"Footer HTML code"},
+	{"variable":"favicon29","number":"29","type":"imageico","desc":"Favicon (page shortcut icon image, uses an ICO file should be small in size)"}
 	]
 
 	
