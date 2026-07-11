@@ -44,7 +44,7 @@ echo '<div style="width: '.$pagewidth.'">';
 <head>
 
 <?php	if($title29 == ""){
-			echo "<title>wee".$pagename."</title>"; 
+			echo "<title>".$pagename."</title>"; 
 			}
 		else{
 			echo "<title>".$title29."</title>"; 
